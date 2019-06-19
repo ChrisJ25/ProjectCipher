@@ -165,6 +165,9 @@ def decryptchar(string1, string):
             finalvalue = value    
     getshifttype(encryptionkey)
     shift(finalvalue)
+    print(' |')
+    print('\ /')
+    print(' v')
     backtoletter(finalvalue)
 
     
